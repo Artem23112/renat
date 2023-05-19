@@ -1,0 +1,78 @@
+@media (max-width: 1300px) {
+    .header-info {
+        width: 260px;
+        height: 260px;
+        margin-left: 22%;
+    }
+    .header-info::after {
+        content: none;
+        position: absolute;
+        background-image: url(../images/icons/gift-icon.png);
+        width: 252px;
+        height: 252px;
+        bottom: -30%;
+        left: 22%;
+    }
+    .header-info__icon {
+        margin: 15px 0 10px 0;
+    }
+    .header-info__company-name {
+        font-size: 25px;
+        line-height: 25px;
+        margin-bottom: 17px;
+    }
+    .header-info__phone {
+        font-size: 35px;
+        line-height: 35px;
+        margin-bottom: 10px;
+    }
+    .header-info__title {
+        font-size: 15px;
+        line-height: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    .description {
+        font-size: 20px;
+    }
+    .description-count {
+        margin-bottom: 20px;
+    }
+    .download-catalog__btn {
+        padding: 8px 18px;
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 500px) {
+    .header {
+        padding-bottom: 300px;
+    }
+    .header-info {
+        bottom: -20px;
+        top: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 0;
+    }
+    .download-catalog__btn {
+        padding: 21px 18px;
+        font-size: 16px;
+    }
+    .photos {
+        padding-bottom: 70px;
+    }
+    .footer {
+        padding-bottom: 95px;
+    }
+    .footer-phone {
+        font-size: 35px;
+        line-height: 38px;
+        margin-bottom: 50px;
+    }
+}
